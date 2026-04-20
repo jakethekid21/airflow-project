@@ -1,0 +1,40 @@
+# Airflow Market Volume Pipeline
+
+## Overview
+
+This project builds a simple data pipeline using Apache Airflow. It downloads stock data for AAPL and TSLA, processes the data, and generates a summary report.
+
+## Pipeline Steps
+
+1. Create local directories for data storage
+2. Download stock data using yfinance
+3. Move raw data into a working directory
+4. Combine datasets
+5. Generate summary metrics:
+   - Average Close Price
+   - Max High Price
+   - Min Low Price
+   - Total Volume
+
+## Schedule
+
+The DAG runs automatically Monday–Friday at 6 PM.
+
+## Technologies Used
+
+- Apache Airflow
+- Python (pandas, yfinance)
+- Docker
+
+## HDFS / Storage
+
+This project uses local file storage (`/tmp/marketvol`) instead of HDFS.  
+In a production environment, this pipeline could be extended to store data in HDFS for distributed processing and scalability.
+
+## How to Run
+
+Start Airflow using:
+
+```bash
+./run_airflow.sh
+```

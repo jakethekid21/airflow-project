@@ -1,0 +1,4 @@
+Total number of errors: 2
+Here are all the errors:
+logs/test_errors/sample_error.log: [2026-04-20 20:15:33,479] {taskinstance.py:1150} ERROR - No columns to parse from file
+logs/test_errors/sample_error.log: [2026-04-20 20:17:44,912] {taskinstance.py:1150} ERROR - Task failed due to missing input file

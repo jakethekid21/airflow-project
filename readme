@@ -38,3 +38,13 @@ Start Airflow using:
 ```bash
 ./run_airflow.sh
 ```
+
+## Log Analyzer
+
+This project includes a Python log analyzer that scans Airflow log files and reports ERROR messages. currenlty it houseing
+
+Run it with:
+
+```bash
+./run_log_analyzer.sh
+```

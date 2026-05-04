@@ -1,0 +1,3 @@
+[2026-04-20 20:15:33,479] {taskinstance.py:1150} ERROR - No columns to parse from file
+[2026-04-20 20:16:10,245] {scheduler_job.py:237} WARNING - Killing PID 41926
+[2026-04-20 20:17:44,912] {taskinstance.py:1150} ERROR - Task failed due to missing input file
